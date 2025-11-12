@@ -1,16 +1,17 @@
 @font-face {
 	font-family: 'Peix';
-	src: url(fonts/Peix.woff2) format('woff2-variations'), url(fonts/Peix.woff) format('woff-variations');
+	src: url('fonts/peix.woff2') format('woff2'), url('fonts/peix.woff') format('woff');
+	font-display: swap;
 }
 
 @font-face {
 	font-family: 'Switzer';
-	src: url(fonts/Switzer-Variable.woff2) format('woff2-variations');
+	src: url('fonts/switzer-variable.woff2') format('woff2');
 }
 
 @font-face {
 	font-family: 'Jetbrains';
-	src: url(fonts/JetBrainsMono-Variable.woff2) format('woff2-variations');
+	src: url('fonts/jetbrainsmono-variable.woff2') format('woff2');
 }
 
 html {
