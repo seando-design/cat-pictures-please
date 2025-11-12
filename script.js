@@ -104,10 +104,10 @@ setInterval(updateClock, 1000);
 updateClock();
 
 // location
-fetch('https://ipapi.co/json/')
+fetch('https://ipwho.is/')
 	.then(res => res.json())
 	.then(data => {
-		const location = `${data.city}, ${data.country_name}`;
+		const location = `${data.city}, ${data.country}`;
 		document.getElementById('location').textContent = location.toUpperCase();
 	})
 	.catch(() => {
