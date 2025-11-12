@@ -509,6 +509,10 @@ a .hover,
 		bottom: 1rem; */
 	}
 
+	.glitch-gif {
+		width: 40%;
+	}
+
 	.nav {
 		display: none;
 	}
